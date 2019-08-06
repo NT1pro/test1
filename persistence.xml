@@ -1,0 +1,26 @@
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+    <!--<persistence-unit name="gdb-unit" transaction-type="RESOURCE_LOCAL">-->
+        <!--<description>hibernate oracle persistent unit</description>-->
+        <!--<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>-->
+        <!--&lt;!&ndash;class></class&ndash;&gt;-->
+        <!--<exclude-unlisted-classes>true</exclude-unlisted-classes>-->
+        <!--&lt;!&ndash;To cache in 2nd level cache only Entities annotated with @Cacheable&ndash;&gt;-->
+        <!--<shared-cache-mode>ENABLE_SELECTIVE</shared-cache-mode>-->
+        <!--<validation-mode>CALLBACK</validation-mode>-->
+        <!--<properties>-->
+            <!--&lt;!&ndash;property name="" value=""/&ndash;&gt;-->
+            <!--<property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver" />-->
+            <!--<property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@localhost:1521:cdb" />-->
+            <!--<property name="javax.persistence.jdbc.user" value="gdb1" />-->
+            <!--<property name="javax.persistence.jdbc.password" value="gdb1" />-->
+            <!--&lt;!&ndash; last oracle version we suggest is 11g&ndash;&gt;-->
+            <!--<property name="hibernate.dialect" value="org.hibernate.dialect.Oracle10gDialect"/>-->
+            <!--&lt;!&ndash;property name="javax.persistence.schema-generation.database.action" value="drop-and-create" />-->
+            <!--<property name="javax.persistence.schema-generation.create-script-source" value="create-db.sql" />-->
+            <!--<property name="javax.persistence.schema-generation.drop-script-source" value="drop-db.sql" />-->
+            <!--<property name="javax.persistence.sql-load-script-source" value="data.sql" /&ndash;&gt;-->
+        <!--</properties>-->
+    <!--</persistence-unit>-->
+</persistence>
